@@ -14,7 +14,7 @@ function addMovies(state,{movies}){
 function movieReducer(state = mockMovies.Search, action) {
   switch (action.type) {
     case 'ADD_MOVIES':
-      return addMovies(staet, action.payload)
+      return addMovies(state, action.payload)
     default:
       return state
   }
